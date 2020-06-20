@@ -20,7 +20,7 @@ class FetchTaskThunk: RThunk {
             )
             dispatch(TaskListSlice.SetTasks(tasks.toTypedArray()))
             dispatch(TaskListSlice.SetIsLoading(false))
-        }, 500)
+        }, 2000)
 
         return nullAction
     }

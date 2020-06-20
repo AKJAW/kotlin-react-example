@@ -8,7 +8,7 @@ import react.RState
 
 class App : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
-        mContainer(maxWidth = Breakpoint.sm) {
+        mContainer(maxWidth = Breakpoint.xs) {
             taskListContainer {}
         }
     }
