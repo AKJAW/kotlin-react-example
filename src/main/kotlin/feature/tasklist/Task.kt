@@ -1,3 +1,3 @@
-package feature.todolist
+package feature.tasklist
 
 data class Task(val name: String)

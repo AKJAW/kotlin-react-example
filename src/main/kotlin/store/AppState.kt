@@ -1,7 +1,7 @@
 package store
 
-import feature.todolist.TodoListSlice
+import feature.tasklist.TaskListSlice
 
 data class AppState(
-    val todoListState: TodoListSlice.State = TodoListSlice.State()
+    val taskListState: TaskListSlice.State = TaskListSlice.State()
 )

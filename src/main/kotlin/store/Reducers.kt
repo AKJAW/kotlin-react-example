@@ -1,13 +1,13 @@
 package store
 
-import feature.todolist.TodoListSlice
+import feature.tasklist.TaskListSlice
 import redux.Reducer
 import redux.combineReducers
 import kotlin.reflect.KProperty1
 
 fun combinedReducers() = combineReducersInferred(
     mapOf(
-        AppState::todoListState to TodoListSlice::reducer
+        AppState::taskListState to TaskListSlice::reducer
     )
 )
 
