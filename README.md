@@ -44,3 +44,5 @@ The one thing that I couldn't get working is the ErrorBoundary caused by the lac
 of **getDerivedStateFromError**. If someone knows how to implements this in
 Kotlin, please feel free to reach out and improve this example. All other 
 feedback is also appreciated.
+
+A more in-depth description and explanation of the project can be found on [My Blog](https://akjaw.com/blog/kotlinjs_react_redux_with_thunk_and_material_ui)
