@@ -3,11 +3,10 @@
 
 package store
 
-import redux.Action
-import redux.Enhancer
-import redux.Middleware
-import redux.Reducer
-import redux.Store
+import redux.*
+
+//This wrapper is currently necessary to avoid this error
+//"When accessing module declarations from UMD, they must be marked by both @JsModule and @JsNonModule"
 
 external fun <S, A, R> createStore(
     reducer: Reducer<S, A>,
