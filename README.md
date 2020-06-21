@@ -22,6 +22,13 @@ The architecture I use is as follows:
 - All thunks are defined in a separate class/object (if they use coroutines, 
 the scope can be passed in through the constructor)
 
+To run the app use the standard gradle command **browserDevelopmentRun**. The app 
+will run on port 8080, but it will not auto open because of the custom webpack 
+config.
+```shell script
+./gradlew browserDevelopmentRun
+```
+
 The application in this repository is a collection of information I found about
 Kotlin/JS in one place. I hope it will help some people with setting up their
 own React apps in Kotlin.
